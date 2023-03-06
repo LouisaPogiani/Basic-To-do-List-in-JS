@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>To Do List</h1>
+    <div class="container">
+        <form id="task-form"> 
+            <h3>Create a Task:</h3><br>
+            <label for="task">To Do:</label><br>
+            <input type="text" id="task"><br>
+            <label for="description">Description: </label><br>
+            <input type="text" id="description"><br>
+            <input type="datetime-local" id="date"><br>
+            <select id="taskCategory"> 
+                <option>Personal</option>
+                <option>Work</option>
+                <option>Leisure</option>
+                <option>Misc</option>
+            </select><br>
+            <select id="taskIimportance"> 
+                <option>Important Task</option>
+                <option>Regular Task</option>
+            </select><br>
+            <input type="submit" value="Add Task" id="submitButton">
+          </form> 
+        <div class="todo">
+            <h2>Important To Do List</h2>
+            <ol  class="list" id="importantList">
+            </ol>
+        </div>
+        <div class="todo">
+            <h2>To Do List</h2>
+            <ol  class="list" id="todoList">
+            </ol>
+        </div>
+    </div>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>

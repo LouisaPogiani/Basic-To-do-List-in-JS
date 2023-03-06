@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+  
+body{
+    font-family: Luminari, fantasy;
+    position:relative;
+    width: 50%;
+    margin: 0 auto;
+}
+  
+.container{
+    display: flex; 
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    background-color: whitesmoke;   
+    color:rgba(38, 20, 88, 0.596);
+}
+h1{
+    font-size:2.5rem;
+    font-weight:300;
+    margin-bottom: 1rem;
+    color: whitesmoke;
+    background-color: rgb(48, 48, 48);
+    border: 3px;
+    border-color: rgba(46, 46, 46, 0.089);
+    border-style: solid; 
+    border-radius: 10px;  
+}
+
+span{
+color: rgb(143, 143, 143);
+}
